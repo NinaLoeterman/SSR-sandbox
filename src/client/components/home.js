@@ -1,7 +1,17 @@
 import React from "react";
 
 const Home = () => {
-  return <div>Im the home element</div>;
+
+  const onClick = () => {
+    console.log('hi there:)');
+  }
+
+  return (
+    <div>
+      <div>Im the BEST hello home element</div>
+      <button onClick={onClick}>Press me!</button>
+    </div>
+  );
 };
 
 export default Home;
